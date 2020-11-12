@@ -1,0 +1,36 @@
+Objetivo: Demonstrar o uso de análise de sentimentos com a linguagem Python
+
+Plataforma: Desenvolvido em Python utilizando o notebook do Google Colab
+
+Bibliotecas utilizadas:
+
+Pandas: para a manipulação de dados
+
+NLTK: para o processamento de linguagem natural
+
+Unidecode: para a normalização de texto
+
+Pyplot: para plotar gráficos
+
+WordCloud: para gerar nuvens de palavras
+
+Seaborn: para visualização de dados
+
+Sklearn: para o aprendizado de máquina
+
+Dataset utilizado: dataset de tweets, disponível em: https://www.kaggle.com/augustop/portuguese-tweets-for-sentiment-analysis?select=NoThemeTweets.csv
+
+Passo a passo resumido:
+
+1- Importar os dados
+2- Gerar a representação no modelo bag of words
+3- Remover as stop words
+4- Normalizar o texto
+5- Stemização do texto
+6- Agrupar as palavras em unigrams, bigrams, trigrams, etc..
+7- Aplicar o algoritmo de Machine Learning, como se trata de um problema de classificação, neste caso determinar se um texto é positivo ou negativo, foi utilizado a classificação com regressão logística.
+
+Observações importantes:
+
+-Há diversos outros classificadores e tratamentos que podem ser utilizados, e diversos ajustes que podem ser feitos, porém julguei que só vale a pena fazer tal estudo com o dataset definitivo.
+-Para rodar o arquivo podem ser necessárias adaptações na hora de importar o dataset, recomendo utilizar o Colab ou outro notebook Python.
